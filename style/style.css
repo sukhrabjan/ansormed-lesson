@@ -232,7 +232,26 @@ line-height: 150%;
   background-color: var(--bg-color);
 }
 
-.fature__call {
+.feature__wrapper{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.feature__sign{
+  margin-top: 0;
+  margin-bottom: 42px;
+  color: #FFF;
+font-family: Open Sans Condensed;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; 
+}
+.feature__call {
+
+  text-decoration: none;
+  text-align: center;
   padding: 12px 24px;
   border-radius: 8px;
 border: 2px solid #FFF;
@@ -245,5 +264,11 @@ line-height: 120%; /* 18px */
 letter-spacing: 2px;
 text-transform: uppercase;
 }
-.feature__letter {
+
+.feature__call:not(:last-child){
+  margin-right: 40px;
+}
+.feature__wrapper--call{
+display: flex;
+justify-content: center;
 }
