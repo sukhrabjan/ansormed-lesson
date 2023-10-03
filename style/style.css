@@ -44,7 +44,7 @@ body {
 
 
 .header__div {
-  align-items: stretch;
+  align-items: center;
   display: flex;
   justify-content: space-between;
 }
