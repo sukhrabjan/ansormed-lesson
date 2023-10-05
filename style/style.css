@@ -23,6 +23,8 @@
   font-display: swap;
 }
 
+
+
 html {
   height: 100%;
   box-sizing: border-box;
@@ -126,6 +128,7 @@ body {
 }
 
 .button {
+  display: inline-block;
   cursor: pointer;
   margin-top: 0;
   padding: 12px 24px;
@@ -394,8 +397,6 @@ body {
 }
 
 .footer__link {
-  transition: color 0.4s ease,
-    opacity 0.4s ease;
   text-decoration: none;
   color: #FFF;
 }
