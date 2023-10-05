@@ -4,6 +4,25 @@
   --footer-color: #222;
 }
 
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../Fonts/') format('woff2'),
+      url('../Fonts/') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../Fonts/') format('woff2'),
+      url('../Fonts/') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 html {
   height: 100%;
   box-sizing: border-box;
