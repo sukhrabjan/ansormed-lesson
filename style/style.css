@@ -177,14 +177,14 @@ body {
 }
 
 .section {
-  padding-top: 120px;
-
+  padding-top: 29px;
   background-color: var(--bg-color);
 }
 
 .section__div {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .section__text {
