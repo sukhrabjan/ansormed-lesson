@@ -228,7 +228,9 @@ body {
   background: var(--accent-color);
 }
 
-
+.services__head{
+  padding-top: 120px;
+}
 
 .services__reception {
   margin-top: 0;
